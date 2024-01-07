@@ -90,7 +90,9 @@ public class App {
                     System.out.println("List of Books:");
                     library.listBooks();
                     break;
-               
+                case 4:
+                    System.out.println("Exiting the program. Goodbye!");
+                    System.exit(0);
                 default:
                     System.out.println("Invalid choice. Please enter a valid option.");
             }
